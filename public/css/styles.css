@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100vh;
+}
+
+.list-group-item:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
