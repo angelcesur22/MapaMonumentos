@@ -36,9 +36,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             Swal.fire({
                 title: properties.NOMBRE,
                 text: properties.DESCRIPCION || 'No hay descripción disponible',
-                icon: 'info',
+                imageUrl: 'images/studio.png',  
+                imageWidth: 100,  
+                imageHeight: 100,
                 confirmButtonText: 'OK'
             });
+            
         });
 
       
